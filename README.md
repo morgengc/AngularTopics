@@ -3,8 +3,6 @@
 ## 导航菜单: navigation-menu 
 ![导航菜单效果](http://static.zybuluo.com/morgen/oxc9is5g9mi6p84bhg6ajk36/Navigation.png)
 
-===
-
 ## 内联编辑器: inline-editor
 ![内联编辑器](http://static.zybuluo.com/morgen/qv6ilplcntqiwn43928sznfo/Editor.png)
 
