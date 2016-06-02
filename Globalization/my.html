@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>国际化</title>	
+
+		<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.4.0/angular.min.js"></script>
+		<script type="text/javascript" src="http://cdn.bootcss.com/angular-translate/2.9.0/angular-translate.js"></script>
+
+		<script type="text/javascript" src="my.js"></script>
+	</head>
+
+	<body ng-app="appTest">
+		<div><a href="http://blog.fengxiaotx.com/?p=295">Bane-开发者成长之路</a></div>
+		<div ng-controller="testCtr">
+			{{'name'|translate}}
+			<p translate>age</p>
+			<div>
+				<button ng-click="changeLanguage('zh_CN')">中文</button>
+				<button ng-click="changeLanguage('japan')">日本语</button>
+			</div>
+		</div>
+
+	</body>
+</html>

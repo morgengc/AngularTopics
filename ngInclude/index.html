@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>ngInclude示例</title>
+
+	<!-- The font file -->
+	<link href="http://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,700" rel="stylesheet" />
+
+	<!-- The main CSS file -->
+	<link href="animations.css" rel="stylesheet" />
+
+	<!-- The Javascript file -->
+	<script src="http://cdn.bootcss.com/angular.js/1.4.0/angular.min.js"></script>
+	<script src="http://cdn.bootcss.com/angular.js/1.4.0/angular-animate.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<!-- Declare a new AngularJS app and associate the controller -->
+<body ng-app="includeExample">
+<div ng-controller="ExampleController">
+	<!-- ng-model中的template变量，跟Ctroller中定义的template变量含义是一致的 -->
+	<select ng-model="template" ng-options="t.name for t in templates">
+		<option value="">(blank)</option>
+	</select>
+	url of the template: {{template.url}}
+	<hr/>
+	<div class="slide-animate-container">
+		<div class="slide-animate" ng-include="template.url"></div>
+	</div>
+</div>
+</body>
+
+</html>

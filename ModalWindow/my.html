@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Angularjs 模态框代替alert效果</title>
+		<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.4.0/angular.min.js"></script>
+        <script type="text/javascript" src="my.js"></script>
+    </head>
+    <body ng-app="appTest">
+
+        <div><a href="http://blog.fengxiaotx.com/?p=305">彼岸</a></div>
+
+        <div ng-controller="testCtr" style=" width:1000px; margin-left:auto; margin-right:auto;">
+            <button ng-click="k()">打开</button>
+            <button ng-click="k1()">打开2</button>
+        </div>
+
+        <ms-alert-modal  with-background="true" model-size="sm" ></ms-alert-modal>
+
+    </body>
+</html>
