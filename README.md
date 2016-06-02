@@ -1,8 +1,7 @@
 # AngularJS主题示例
 
-## 导航菜单
+## navigation-menu 导航菜单
 ![导航菜单效果](http://static.zybuluo.com/morgen/oxc9is5g9mi6p84bhg6ajk36/Navigation.png)
-代码地址: WebTest/AngularJS/TopicExamples/navigation-menu
 
 ## 内联编辑器
 ![内联编辑器]![Editor.png-5.6kB][2]
